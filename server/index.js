@@ -16,7 +16,7 @@ const MongodbStore = require('connect-mongodb-session')(session);
 const multer = require('multer');
 const crypto = require('crypto');
 
-const MONGO_URL = 'mongodb+srv://sato:S9GRELgPwGaHLzpj@cluster1964.hc81wfg.mongodb.net/editorial?retryWrites=true&w=majority&appName=cluster1964';
+const MONGO_URL = 'API KEY';
 const store = new MongodbStore(
         {
                 uri: MONGO_URL,
